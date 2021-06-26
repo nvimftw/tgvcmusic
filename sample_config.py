@@ -4,7 +4,7 @@ HEROKU = True  # NOTE Make it false if you're not deploying on heroku.
 if HEROKU:
     from os import environ
     from dotenv import load_dotenv
-    
+
     load_dotenv()  # take environment variables from .env.
     API_ID = int(environ["API_ID"])
     API_HASH = environ["API_HASH"]

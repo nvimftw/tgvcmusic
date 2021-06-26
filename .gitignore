@@ -20,3 +20,4 @@ __pycache__/
 /*.session-journal
 input-*.raw
 group_call.log
+.idea
